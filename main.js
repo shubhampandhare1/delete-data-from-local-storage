@@ -13,7 +13,7 @@ function submitForm(event) {
     }
     localStorage.setItem(user.email, JSON.stringify(user));
     showUserOnHome(user);
-    deleteButton(user)
+    // deleteButton(user)
 }
 
 function showUserOnHome(user){
